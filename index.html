@@ -420,42 +420,114 @@
         </div>
     </section>
 
-    <!-- Blog Section -->
-    <section id="blog" class="blog">
-        <div class="container">
-            <h2 class="section-title fade-in">Latest Blog Posts</h2>
-            <div class="blog-grid">
-                <article class="blog-card fade-in">
-                    <div class="blog-image">CAR CARE</div>
-                    <div class="blog-content">
-                        <div class="blog-date">May 25, 2025</div>
-                        <h3>5 Signs Your Car Needs Immediate Attention</h3>
-                        <p>Learn to recognize the warning signs that indicate your vehicle needs professional service before minor issues become major problems.</p>
-                        <a href="#" class="read-more">Read More →</a>
-                    </div>
-                </article>
-                <article class="blog-card fade-in">
-                    <div class="blog-image">MAINTENANCE</div>
-                    <div class="blog-content">
-                        <div class="blog-date">May 22, 2025</div>
-                        <h3>The Ultimate Car Maintenance Checklist</h3>
-                        <p>A comprehensive guide to keeping your vehicle in top condition with regular maintenance schedules and professional tips.</p>
-                        <a href="#" class="read-more">Read More →</a>
-                    </div>
-                </article>
-                <article class="blog-card fade-in">
-                    <div class="blog-image">TECH</div>
-                    <div class="blog-content">
-                        <div class="blog-date">May 20, 2025</div>
-                        <h3>Latest Automotive Technology Trends</h3>
-                        <p>Discover how modern technology is revolutionizing car maintenance and repair services in 2025.</p>
-                        <a href="#" class="read-more">Read More →</a>
-                    </div>
-                </article>
+    <div id="blog" class="page-section">
+        <section class="page-content">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="page-title">Our Blog</h1>
+                    <p class="page-meta">Expert tips, industry insights, and automotive knowledge</p>
+                </div>
+                <div class="blog-grid">
+                    <article class="blog-card fade-in" onclick="showBlogPost('blog1')">
+                        <div class="blog-image">CAR CARE</div>
+                        <div class="blog-content">
+                            <div class="blog-date">May 25, 2025</div>
+                            <h3>5 Signs Your Car Needs Immediate Attention</h3>
+                            <p>Learn to recognize the warning signs that indicate your vehicle needs professional service before minor issues become major problems.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+                    <article class="blog-card fade-in" onclick="showBlogPost('blog2')">
+                        <div class="blog-image">MAINTENANCE</div>
+                        <div class="blog-content">
+                            <div class="blog-date">May 22, 2025</div>
+                            <h3>The Ultimate Car Maintenance Checklist</h3>
+                            <p>A comprehensive guide to keeping your vehicle in top condition with regular maintenance schedules and professional tips.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+                    <article class="blog-card fade-in" onclick="showBlogPost('blog3')">
+                        <div class="blog-image">TECH</div>
+                        <div class="blog-content">
+                            <div class="blog-date">May 20, 2025</div>
+                            <h3>Latest Automotive Technology Trends</h3>
+                            <p>Discover how modern technology is revolutionizing car maintenance and repair services in 2025.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </article>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
+    
+    <!-- Blog Post 1 -->
+    <div id="blog1" class="page-section">
+        <section class="page-content">
+            <div class="container">
+                <a href="#" onclick="showPage('blog')" class="back-to-blog">← Back to Blog</a>
+                <div class="page-header">
+                    <h1 class="page-title">5 Signs Your Car Needs Immediate Attention</h1>
+                    <p class="page-meta">Published on May 25, 2025 | Car Care</p>
+                </div>
+                <div class="article-content">
+                    <p>Your car is constantly communicating with you, but do you know how to listen? Recognizing the early warning signs that your vehicle needs professional attention can save you from costly repairs and dangerous situations on the road.</p>
+                    
+                    <h2>1. Strange Noises</h2>
+                    <p>Unusual sounds are often the first indicator that something isn't right with your vehicle. Pay attention to:</p>
+                    <ul>
+                        <li><strong>Squealing brakes:</strong> High-pitched squealing when braking indicates worn brake pads</li>
+                        <li><strong>Grinding sounds:</strong> Metal-on-metal grinding suggests severe brake wear</li>
+                        <li><strong>Knocking engine:</strong> Engine knocking could indicate serious internal damage</li>
+                        <li><strong>Rattling exhaust:</strong> May indicate a damaged exhaust system</li>
+                    </ul>
 
+                    <h2>2. Warning Lights on Dashboard</h2>
+                    <p>Modern vehicles are equipped with sophisticated warning systems. Never ignore dashboard warning lights, especially:</p>
+                    <ul>
+                        <li>Check Engine Light</li>
+                        <li>Oil Pressure Warning</li>
+                        <li>Temperature Warning</li>
+                        <li>Battery/Charging System Alert</li>
+                    </ul>
+
+                    <h2>3. Fluid Leaks</h2>
+                    <p>Finding puddles under your parked car is never a good sign. Different colored fluids indicate different problems:</p>
+                    <ul>
+                        <li><strong>Black or brown:</strong> Engine oil leak</li>
+                        <li><strong>Red or pink:</strong> Transmission or power steering fluid</li>
+                        <li><strong>Green, yellow, or orange:</strong> Coolant leak</li>
+                        <li><strong>Clear:</strong> Water (usually normal) or brake fluid (serious concern)</li>
+                    </ul>
+
+                    <h2>4. Performance Issues</h2>
+                    <p>Changes in how your car drives or performs should be addressed immediately:</p>
+                    <ul>
+                        <li>Difficulty starting the engine</li>
+                        <li>Rough idling or stalling</li>
+                        <li>Loss of power or acceleration</li>
+                        <li>Poor fuel economy</li>
+                        <li>Vibrations while driving</li>
+                    </ul>
+
+                    <h2>5. Brake Problems</h2>
+                    <p>Your braking system is critical for safety. Seek immediate attention if you experience:</p>
+                    <ul>
+                        <li>Soft or spongy brake pedal</li>
+                        <li>Brake pedal goes to the floor</li>
+                        <li>Vehicle pulls to one side when braking</li>
+                        <li>Vibrations when braking</li>
+                        <li>Burning smell after braking</li>
+                    </ul>
+
+                    <h2>Don't Wait - Act Now</h2>
+                    <p>Ignoring these warning signs can lead to more expensive repairs, dangerous breakdowns, or even accidents. At Vesla Auto Services, our certified technicians can diagnose and resolve issues quickly and affordably.</p>
+                    
+                    <p>Remember, preventive maintenance is always more cost-effective than emergency repairs. Schedule regular inspections to catch problems before they become serious safety hazards.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
     <!-- Footer -->
     <footer id="contact" class="footer">
         <div class="container">
